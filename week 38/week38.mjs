@@ -36,7 +36,7 @@ const minutesInHour = 60;
 const secondsInMinute = 60;
 const RatioBetweenWaterAndJuice = 1;
 const DaysUntilMyBirthday = 28;
-const MillimetersOfRainFalling = 1
+const MillimetersOfRainFalling = 1;
 
 /*
     Task: B
@@ -51,6 +51,19 @@ const MillimetersOfRainFalling = 1
 */
 console.log("Task: B");
 
+function calculateSecondsInHours(hours){
+    return hours * minutesInHour * secondsInMinute;
+}
+
+const totalSeconds = calculateSecondsInHours(2.5);
+console.log(totalSeconds);
+
+function calculateMinutesInDays(days){
+    return days * hoursInDay * minutesInHour;
+}
+
+const totalMinutes = calculateMinutesInDays(123);
+console.log(totalMinutes);
 
 /*
     Task: C
