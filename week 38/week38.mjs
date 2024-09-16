@@ -31,6 +31,12 @@ for (let index = 0; index < people.length; index++) {
 */
 console.log("Task: A");
 
+const hoursInDay = 24;
+const minutesInHour = 60;
+const secondsInMinute = 60;
+const RatioBetweenWaterAndJuice = 1;
+const DaysUntilMyBirthday = 28;
+const MillimetersOfRainFalling = 1
 
 /*
     Task: B
